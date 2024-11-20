@@ -1,5 +1,5 @@
 import type { ButtonProps } from "@relume_io/relume-ui";
-import { MyAnimatedBeam } from "./MyAnimatedBeam";
+import { MyAnimatedBeam } from "./MyAnimatedBeam.jsx";
 
 type ImageProps = {
   src: string;

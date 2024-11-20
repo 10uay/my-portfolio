@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
-import Particles from "../components/magicui/particles";
-import { RootState } from '../redux/store';
-import { Profile } from "./Profile";
+import Particles from "../components/magicui/particles.jsx";
+import { RootState } from '../redux/store.js';
+import { Profile } from "./Profile.jsx";
 
 
 const Hero: React.FC = () => {
@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
       <span className='pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center text-8xl font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10'>
         <Profile />
       </span>
-      
+
       <Particles
         className="absolute inset-0 z-0"
         quantity={200}

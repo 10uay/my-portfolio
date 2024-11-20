@@ -1,9 +1,9 @@
 import './App.css'
 
-import Hero from './MyComponents/Hero'
-import { Navbar } from './MyComponents/Navbar'
-import { Knowledage } from "./MyComponents/Knowledage"
-import { Projects } from './MyComponents/Projects'
+import Hero from './MyComponents/Hero.jsx'
+import { Navbar } from './MyComponents/Navbar.jsx'
+import { Knowledage } from "./MyComponents/Knowledage.jsx"
+import { Projects } from './MyComponents/Projects.jsx'
 
 function App() {
 

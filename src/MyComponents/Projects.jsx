@@ -25,7 +25,7 @@ export const Projects = (props) => {
   };
 
   return (
-    <section className="px-[5%] py-16 md:py-24 lg:py-28">
+    <section className="px-[5%] py-16 md:py-24 lg:py-28 mt-10">
       <div className="container">
         <div className="mb-12 w-full max-w-lg md:mb-18 lg:mb-20">
           <p className="mb-3 font-semibold md:mb-4">{tagline}</p>
